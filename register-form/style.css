@@ -1,0 +1,55 @@
+/* Estilos generales del body */
+body {
+    font-family: monospace;       /* Tipo de fuente */
+    display: flex;                /* Usa Flexbox */
+    justify-content: center;      /* Centra horizontalmente */
+    align-items: center;          /* Centra verticalmente */
+    height: 100vh;                /* Ocupa toda la altura */
+    background: #050505;          /* Fondo oscuro */
+    margin: 0;                    /* Sin márgenes */
+}
+/* Estilo de la tarjeta del formulario */
+.card {
+    background: #101010;          /* Color de fondo */
+    padding: 40px;                /* Espaciado interno */
+    border: 2px solid #00f3ff;    /* Borde de color */
+    box-shadow: 0 0 15px #00f3ff; /* Efecto de resplandor */
+    width: 280px;                 /* Ancho de la tarjeta */
+    text-align: center;           /* Alinea el texto */
+    color: #fff;                  /* Color del texto */
+}
+h2 {
+    text-shadow: 0 0 10px #00f3ff; /* Efecto de neón */
+    margin-bottom: 30px;            /* Espacio inferior */
+}
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;                   /* Ancho completo */
+    padding: 10px;                /* Espaciado interno */
+    margin-bottom: 20px;           /* Espacio inferior */
+    background: transparent;       /* Fondo transparente */
+    border: none;                  /* Sin borde */
+    border-bottom: 2px solid #333; /* Línea inferior */
+    color: #fff;                   /* Color del texto */
+    box-sizing: border-box;        /* Incluye padding y borde */
+}
+input:focus {
+    outline: none;                 /* Quita el contorno */
+    border-color: #ff00de;         /* Cambia color al enfocar */
+    box-shadow: 0 5px 10px -5px #ff00de; /* Sombra al enfocar */
+}
+/* Estilo del botón */
+button {
+    width: 100%;                   /* Ancho completo */
+    padding: 10px;                 /* Espaciado interno */
+    background: transparent;       /* Fondo transparente */
+    color: #00f3ff;                /* Color del texto */
+    border: 2px solid #00f3ff;     /* Borde de color */
+    cursor: pointer;               /* Cursor de mano */
+    font-weight: bold;             /* Texto en negrita */
+}
+button:hover {
+    background: #00f3ff;           /* Fondo al pasar el mouse */
+    color: #000;                   /* Cambia el color del texto */
+    box-shadow: 0 0 20px #00f3ff;  /* Mayor resplandor */
+}
