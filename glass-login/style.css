@@ -1,0 +1,70 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(45deg, #FC466B, #3F5EFB);
+}
+/* Estilo del contenedor de vidrio (glass card) */
+.glass-card {
+  width: 320px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);         /* Desenfoca lo que está detrás */
+  -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  text-align: center;
+  color: white;
+}
+/* Estilo del título */
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* Estilo de los campos de entrada */
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+/* Color del placeholder */
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Efecto cuando el input está enfocado */
+input:focus {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+/* Estilo del botón */
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  color: #3F5EFB;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+  transform: scale(1.05);
+}

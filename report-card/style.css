@@ -1,0 +1,38 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  font-family: sans-serif;
+  margin: 0;
+}
+/* Tarjeta de reporte */
+.card {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/* Título de la tarjeta */
+h3 {
+  margin: 0 0 15px;
+  text-align: center;
+  color: #333;
+}
+/* Estilo de la lista */
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  list-style: none;
+  color: #555;
+}
+/* Estilo de la calificación */
+span {
+  font-weight: bold;
+  color: #2ecc71;
+}

@@ -1,0 +1,60 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: #ffe6ea;
+}
+/* Estilo de la tarjeta */
+.card {
+  width: 300px;
+  padding: 40px;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+/* Estilo del título h2 */
+h2 {
+  color: #ff4b6e;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+}
+/* Pseudo-elemento que crea el ícono (rombo) */
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  background: #ff4b6e;
+  transform: rotate(-45deg);
+  box-shadow: -1px -1px 0 #ff4b6e;
+  border-radius: 2px;
+}
+/* Estilo de los campos de texto */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+/* Estilo del botón */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #ff4b6e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+/* Estilos generales del body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Estilo del contenedor principal (tarjeta) */
+.card {
+    width: 400px;
+    height: 230px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+}
+/* Parte izquierda */
+.left {
+    width: 35%;
+    background: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/* Estilo del círculo de la foto */
+.photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+}
+/* Imagen del avatar */
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Parte derecha */
+.right {
+    width: 65%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Estilo del nombre */
+h2 {
+    margin: 0;
+    color: #333;
+    font-size: 22px;
+}
+/* Estilo del cargo o título */
+p.title {
+    margin: 5px 0 20px;
+    color: #78c6dd;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* Estilo de la información de contacto */
+.info {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+}
+/* Espacio entre los datos */
+.info div {
+    margin-bottom: 5px;
+}

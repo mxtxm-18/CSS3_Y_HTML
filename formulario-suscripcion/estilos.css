@@ -1,0 +1,63 @@
+/* Estilos generales del cuerpo de la página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+  margin: 0;
+}
+
+/* Estilos del contenedor principal */
+.subscribe-card {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  border: 1px solid #333;
+  box-shadow: 0 1px 20px rgba(0,0,0,0.3);
+}
+
+/* Estilo del título */
+h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilo del texto secundario */
+p {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Estilo del campo de entrada */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #2a2a2a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Estilo del botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+  background: #16a34a;
+}

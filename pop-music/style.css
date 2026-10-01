@@ -1,0 +1,25 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+  margin: 0;
+  font-family: 'Arial Black', sans-serif;
+}
+/* Estilo del texto con efecto Pop */
+.pop-text {
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  /* Degradado de colores (rosa a azul) */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 15px rgba(255, 0, 204, 0.5));
+  /* Sombra brillante */
+  letter-spacing: -2px;
+  margin: 0;
+}

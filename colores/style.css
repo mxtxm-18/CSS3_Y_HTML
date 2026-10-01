@@ -1,0 +1,28 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  background: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+/* Estilo de los cuadros (cajas) */
+.box {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Cuadro rojo sólido usando rgb() */
+.solid {
+  background-color: rgb(255, 0, 0);
+}
+/* Cuadro rojo transparente usando rgba() */
+.trans {
+  background-color: rgba(255, 0, 0, 0.5);
+}

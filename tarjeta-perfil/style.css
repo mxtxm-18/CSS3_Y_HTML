@@ -1,0 +1,50 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+  font-family: sans-serif;
+  margin: 0;
+}
+.card {
+  width: 240px;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h3 {
+  margin: 0;
+  color: #333;
+  font-size: 22px;
+}
+.info {
+  color: #888;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.bio {
+  color: #555;
+  font-size: 15px;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ff4b6e;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Personalización (opcional) */
+button:hover {
+  background: #e63956;
+  transform: scale(1.02);
+  transition: 0.3s;
+}

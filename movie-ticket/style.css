@@ -1,0 +1,70 @@
+/* DFMDP - HTML y CSS */
+/* Estilos generales de la página */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50;
+  font-family: 'Courier New', monospace;
+}
+/* Estilo del contenedor principal del boleto */
+.ticket {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+/* Parte superior del boleto */
+.top {
+  background: #e74c3c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+/* Bordes decorativos de la parte superior */
+.top::before, .top::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+  background: #2c3e50;
+  border-radius: 50%;
+}
+.top::before { left: -10px; }  /* Círculo izquierdo */
+.top::after { right: -10px; }  /* Círculo derecho */
+/* Estilo del título */
+h2 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* Estilo del subtítulo */
+.movie-title {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+/* Parte inferior del boleto */
+.bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px dashed #ccc;
+}
+/* Estilo de las etiquetas (DATE, TIME, SEAT) */
+.info div {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+/* Estilo de los valores (SEP 28, 20:00, A12) */
+.info span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}

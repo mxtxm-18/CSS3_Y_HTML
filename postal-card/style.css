@@ -1,0 +1,52 @@
+/* DFMDP ---- HTML y CSS */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e0e0e0;
+  margin: 0;
+}
+/* Contenedor principal de la postal */
+.postcard {
+  width: 500px;
+  height: 300px;
+  background: #fdfbf7;
+  border: 2px dashed #8b4513;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  display: flex;
+}
+/* Lado izquierdo */
+.left-side {
+  width: 60%;
+  padding-right: 20px;
+}
+/* Lado derecho */
+.right-side {
+  width: 40%;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Cuadro de la estampilla */
+.stamp-box {
+  width: 80px;
+  height: 90px;
+  border: 2px dotted #ccc;
+  align-self: flex-end;
+  background: #fff;
+}
+/* Líneas de la dirección */
+.address-lines {
+  margin-top: 20px;
+}
+/* Estilo de cada línea */
+.line {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
